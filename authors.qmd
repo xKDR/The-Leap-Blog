@@ -1,0 +1,14 @@
+---
+title: "Startups & Authors"
+listing:
+  contents: 
+    - "2023/**/*.qmd"
+    - "2024/**/*.qmd"
+    - "2025/**/*.qmd"
+  template: _ejs/authors.ejs
+  sort: "date desc"
+page-layout: full
+title-block-banner: false
+---
+
+# Our Writers

@@ -1,0 +1,23 @@
+```{=html}
+<% // Aggregate posts by author var authorCounts={}; items.forEach(function(item) { if (item.author) { // specific
+    checking for standard formats if needed, but assuming string var name=item.author; if (!authorCounts[name]) {
+    authorCounts[name]={ count: 0, items: [] }; } authorCounts[name].count++; authorCounts[name].items.push(item); } });
+    // Convert to array and sort var sortedAuthors=Object.keys(authorCounts).map(function(key) { return { name: key,
+    count: authorCounts[key].count, items: authorCounts[key].items }; }).sort(function(a, b) { return b.count - a.count;
+    }); %>
+
+    <div class="authors-list">
+        <% sortedAuthors.forEach(function(author, index) { %>
+            <div class="author-card <%= index === 0 ? 'top-author' : '' %>">
+                <h3 class="author-name">
+                    <a href="archive.html#author=<%= encodeURIComponent(author.name) %>">
+                        <%= author.name %>
+                    </a>
+                </h3>
+                <div class="author-meta">
+                    <%= author.count %> articles
+                </div>
+            </div>
+            <% }); %>
+    </div>
+    ```

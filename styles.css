@@ -770,4 +770,83 @@ main.content>p:first-of-type::first-letter {
     .sep {
         display: none;
     }
+}/* Authors Page Styles */
+.authors-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.author-card {
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s;
+    min-height: 200px;
+}
+
+.author-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.author-card.top-author {
+    grid-column: 1 / -1;
+    background: #000;
+    color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 4rem;
+}
+
+.author-card.top-author .author-name a {
+    color: #fff;
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+
+.author-name {
+    font-family: var(--font-serif);
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.author-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.author-meta {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.author-card.top-author .author-meta {
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .author-card.top-author {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .author-card.top-author .author-name a {
+        font-size: 2rem;
+    }
 }
