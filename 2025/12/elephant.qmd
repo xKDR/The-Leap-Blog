@@ -1,0 +1,50 @@
+---
+title: "High-Voltage Treatment for a Comatose Elephant"
+subtitle: "Unshackling the Elephant by Anand Prasad: A Review"
+author: "Siddarth Raman"
+date: "2025-12-28"
+---
+
+Anand Prasad's *Unshackling the Elephant* provides an interesting clean-sheet critique of the Indian legal system. India's development story into the 21st century is shackled by a judicial system that is stuck in the past. The book succeeds incredibly well at applying economic logic and management principles to the judiciary. Many of the suggested reforms have the weight of common sense - the kind that becomes visible once someone has taken the trouble to articulate it well. It stumbles into uncertain territory when suggesting we succumb to indigenous instinct, especially given the fragility of India's current state capacity and my own preference for cautious reforms that avoid the treacherous currents of populism.
+
+This book matters. It is precise in its diagnosis and bolder in its questions than most will venture. Systems rest on assumptions we stop interrogating; surfacing these debates is important because knowing why we got here tells us what needs to be fixed and what doesn't need relitigating.
+
+## The Low-Hanging Fruit of Process Modernisation
+
+On several fronts, Prasad's prescriptions will invite broad agreement - particularly from those who have witnessed the impact of process modernisation in other fields and wondered why the legal system has resisted it for so long.
+
+The law is both judicial reasoning and process management. Other fields have walked the journey of process improvement. IT services, consulting, accounting, even corporate law in some aspects. Templatised pleadings and standardised procedures need not be recreated from first principles for every matter; translation tools chip away at language barriers; and the knowledge management systems Prasad envisions - his "legal knowledge grid" - would make legal corpora accessible to law graduates and large language models alike. Ideas of virtual hearings and asynchronous proceedings push this further, reducing the friction of physical presence without necessarily compromising procedural integrity.
+
+These are safe bets. They enhance capacity without demanding discretionary overreach. Early efforts have begun and should be embraced; many of these ideas deserve serious piloting as part of the eCourts Phase III modernisation effort.
+
+Prasad also questions the figure of the "all-purpose judge" -the expectation that foundational legal education alone equips one to adjudicate matters spanning technology, finance, and specialised commercial arrangements. The assumption may have held in a simpler era. Whether it holds today is less certain.
+
+A note of caution on artificial intelligence. The justice system functions because society accepts the state's monopoly on coercive power and consents to have it applied through due process. This is a social contract grounded in human accountability. AI may assist judges. But the decision must remain with someone who can be questioned, overruled, and held responsible. As much as the engineer in me might wish law were code, it is not.
+
+## Fixing the Incentive Systems
+
+Courts are not just forums for dispute resolution. They are markets where incentives shape behaviour. 
+
+Consider the interest rate regime applied to legal disputes. Courts award simple interest at rates that don't match any reasonable cost of capital. The effect is predictable: delay becomes a strategy. A defendant who owes money has every reason to stretch proceedings; time works in their favour. Prasad is correct to argue that judges need to understand the time value of money. Aligning judicial interest rates with economic reality would shift the calculus against strategic delay.
+
+On damages, Prasad makes the case for stronger deterrence -particularly through punitive awards for corporate fraud. On costs, he argues that allowing successful litigants to recover expenses would reduce barriers to access, enabling those confident in their position could invest in quality representation without bearing the full risk. 
+
+He also correctly identifies information asymmetry and power imbalance as distortions in the current system. Those with deeper pockets hire better lawyers, and in an adversarial system, this matters considerably. His proposals - removing restrictions on contingency payments, allowing lawyers to advertise, and litigation funding - would make legal representation function more like a market, creating a more level playing field.
+
+Like Chief Justice Suryakant, Prasad echoes the need for judicial performance reviews. This deserves serious consideration, though any implementation must balance accountability against judicial independence. For the bar, he calls for high penalties for malpractice and stricter consequences for perjury. Whether the profession will police itself remains an open question. Prasad's experience understanding lawyers and litigants shines through in this section - he dissects how courts, like any market, respond to incentives.
+
+## The Temptations of an Overhaul
+
+Anand Prasad's frustration with the legal system is understandable. Stepping into a courtroom feels like walking back through time. 
+
+While some structural reforms like splitting the Supreme Court into a constitutional court and court of appeals or curbing judicial legislation merit serious debate, some of the more radical proposals warrant caution. Moving towards an inquisitorial system would transform judges from neutral adjudicators into active investigators. In a country where discretionary power is prone to abuse, such a shift is a dangerous gamble.
+
+The most troubling temptation is the urge to decolonise the system. Weakening foundational principles like the presumption of innocence in favour of indigenous traditions risks legitimising majoritarian sentiment as law, especially when honour killings persist in the 21st century and extrajudicial encounters meet public approval. The philosophical questions in attempting an Indic reinterpretation are formidable - attempting to balance ideas of karma against retributive justice, uniform civil codes against community specific practices, or the contextual obligations of Raja Dharma against the common law tradition that all stand equal before the law.
+
+## The Contradictions
+
+There is an internal tension in the book's vision. It praises codification for its clarity and bemoans lack of consistency in judgements while simultaneously advocating for inquisitorial discretion and culturally-responsive justice. Codification demands predictability. Instinctive justice invites its opposite. A similar tension runs through the hope that algorithms will fix what humans could not. AI may detect patterns across thousands of judgements, but it cannot resolve the fundamental question of what justice requires in a given case.
+
+Yet these contradictions are not fatal flaws. They reflect the complexity of the problem. The legal system serves multiple masters: efficiency and fairness, speed and deliberation, tradition and innovation. Any serious reform must navigate these tensions, and Prasad's book does not shy away from them.
+
+*Unshackling the Elephant* is a necessary provocation. It forces us to question assumptions we have stopped examining. In a system where change comes slowly, if at all, such questioning is itself a form of progress.

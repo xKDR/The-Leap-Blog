@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "The Leap Blog"
+  navbar: false
+
+format:
+  html:
+    theme: 
+      - default
+    css: styles.css
+    include-before-body: _partials/header.html
+    toc: false
+    mainfont: "Inter"
+    fontfamily: sans-serif
+    code-fold: false
+    code-tools: false
+    link-external-newwindow: true

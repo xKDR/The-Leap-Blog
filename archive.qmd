@@ -1,0 +1,63 @@
+---
+title: "All Articles"
+listing:
+  contents: 
+    - "2023/**/*.qmd"
+    - "2024/**/*.qmd"
+    - "2025/**/*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, author, description, categories]
+  page-size: 100
+page-layout: full
+title-block-banner: false
+---
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const applyHashFilter = () => {
+        const hash = decodeURIComponent(window.location.hash);
+        if (hash) {
+            let filterValue = "";
+            if (hash.startsWith("#author=")) {
+                filterValue = hash.replace("#author=", "");
+            } else if (hash.startsWith("#category=")) {
+                filterValue = hash.replace("#category=", "");
+            }
+
+            if (filterValue) {
+                // Poll for the search box appearing in the DOM
+                const checkExist = setInterval(function() {
+                    // Try to find Quarto's listing search box
+                    const searchInput = document.querySelector('.quarto-listing-search .search') || document.querySelector('input.search');
+                    
+                    if (searchInput) {
+                        console.log("Found search input, setting filter to:", filterValue);
+                        searchInput.value = filterValue;
+                        searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+                        searchInput.dispatchEvent(new Event('keyup', { bubbles: true }));
+                        searchInput.dispatchEvent(new Event('change', { bubbles: true }));
+                        clearInterval(checkExist);
+                    } else {
+                        console.log("Waiting for search input...");
+                    }
+                }, 100); // Check every 100ms
+                
+                // Stop checking after 5 seconds to prevent memory leaks
+                setTimeout(() => clearInterval(checkExist), 5000);
+            }
+        }
+    };
+
+    // Apply on load
+    applyHashFilter();
+
+    // Apply on hash change
+    window.addEventListener("hashchange", applyHashFilter);
+});
+</script>
+```

@@ -1,0 +1,84 @@
+---
+title: "The Leap Blog"
+format:
+  html:
+    page-layout: custom
+listing:
+  id: homepage-listing
+  contents: 
+    - "2023/**/*.qmd"
+    - "2024/**/*.qmd"
+    - "2025/**/*.qmd"
+  sort: "date desc"
+  template: _ejs/homepage.ejs
+  max-items: 10
+---
+
+
+```{=html}
+<div class="main-container">
+  <!-- Left Column: Spotlight -->
+  <div class="spotlight-column">
+    <div class="spotlight-card">
+      <div class="spotlight-content">
+        <div class="spotlight-tags">
+          <span class="tag-black">Spotlight</span>
+          <span class="tag-white">Issue 21</span>
+        </div>
+        <h1><a href="2025/12/elephant.html">High-Voltage Treatment for a Comatose Elephant</a></h1>
+        <div class="author">Words by Siddarth Raman</div>
+        <p>It was once legal to build almost anything, everywhere. Then, in the space of a few decades, nearly every city in the Western world banned densification. What happened?</p>
+        <div class="spotlight-footer">
+          <span class="category-tag">Court Reforms</span>
+          <a href="2025/12/elephant.html" class="read-more">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+```
+
+<div id="homepage-listing" class="articles-column"></div>
+
+```{=html}
+</div>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <h2>Contact</h2>
+    <a href="#" class="back-to-top">Back to top &uarr;</a>
+  </div>
+  
+  <div class="footer-content">
+    <div class="contact-info">
+      <div class="contact-item">
+        <strong>Contact</strong>
+        <a href="mailto:worksinprogress@stripe.com">worksinprogress@stripe.com</a>
+      </div>
+      <div class="contact-item">
+        <strong>Questions about your subscription?</strong>
+        <a href="mailto:wip-print@stripe.com">wip-print@stripe.com</a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div class="link-group">
+        <strong>Subscribe</strong>
+        <a href="#">Subscribe to our print magazine</a>
+        <a href="#">Manage your subscription</a>
+        <a href="#">Sign up for our digital newsletter</a>
+      </div>
+      <div class="link-group">
+        <a href="#">Our privacy policy</a>
+        <a href="#">Our cookie policy</a>
+        <a href="#">Ethics & standards</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>Works in Progress Magazine © 2026</span>
+    <span>Designed by And-Now</span>
+  </div>
+</footer>
+```

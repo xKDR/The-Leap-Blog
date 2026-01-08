@@ -1,0 +1,19 @@
+---
+title: "Why Digital Courts Matters"
+author: "Anand Prasad"
+date: "2024-01-05"
+categories: [technology, infrastructure]
+description: "A dummy post exploring the nuances of Digital Courts through the lens of technology."
+---
+
+This is a generated post about **Digital Courts**. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+## The Problem with Digital Courts
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. (technology) is often misunderstood.
+
+## Conclusion
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum at 2024-01-05.

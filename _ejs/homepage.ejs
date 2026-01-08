@@ -1,0 +1,13 @@
+<% for (const item of items) { %>
+<div class="article-card">
+<div class="article-body">
+<h3><a href="<%- item.path.replace('.qmd', '.html') %>"><%= item.title %></a></h3>
+<div class="author">Words by <a href="/archive.html#author=<%= encodeURIComponent(item.author) %>"><%= item.author %></a></div>
+<p><%= item.description %></p>
+</div>
+<div class="article-footer">
+<a class="category-tag" href="/archive.html#category=<%= encodeURIComponent(item.categories ? item.categories[0] : 'Article') %>"><%= item.categories ? item.categories[0] : 'Article' %></a>
+<a href="<%- item.path.replace('.qmd', '.html') %>" class="read-more">Read more &rarr;</a>
+</div>
+</div>
+<% } %>
