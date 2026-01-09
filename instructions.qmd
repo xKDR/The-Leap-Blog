@@ -4,12 +4,65 @@ page-layout: article
 title-block-banner: false
 ---
 
-# Submitting to The Leap Blog
+## What constitutes a good article for this blog?
 
-We welcome contributions from thought leaders, researchers, and practitioners.
+1. **What is the question?** Who cares about this question? Is this an interesting and important question? Is there a clearly posed question and a clear answer, on a question that matters in the world today?
 
-## Guidelines
+2. **Is it new?** What is common knowledge to the (specialised) readership of this blog is not good enough. It's got to say something new.
 
-- **Focus**: High-quality, evidence-based analysis.
-- **Length**: 800 - 1500 words.
-- **Style**: Clear, accessible, professional.
+3. **Is it a logically sound argument?** Mere assertions do not suffice. Linearity of argument, where facts and arguments are brought together to win an argument, are critical.
+
+4. **Does it stand a fair chance at persuading a skeptical reader who previously thought otherwise?** We do not write for the applause of those who already agree with us; we write in the hope of persuading people who do not agree with us.
+
+## Mechanics of Submission
+
+Please send your submissions to [theleapjournal@gmail.com](mailto:theleapjournal@gmail.com).
+
+All charts and graphics should follow [these guidelines](http://www.mayin.org/ajayshah/MISC/charts-etiquette.html).
+
+### HTML Syntax Checking
+
+We recommend using [tidy](http://tidy.sourceforge.net/) to validate your HTML.
+
+## Typesetting Mathematics
+
+You can include LaTeX-style mathematics in your articles. For example:
+
+```
+$$e^{i\pi} + 1 = 0$$
+```
+
+Renders as: $e^{i\pi} + 1 = 0$
+
+## Typesetting Blocks of Computer Code
+
+Use code blocks with syntax highlighting:
+
+```r
+# Make the NPV of an annuity p
+value.of.pension <- function(p, S, r, l=0) {
+    (1/r)^(1:l) %*% (p * S)
+}
+```
+
+## Doing References Well
+
+When citing sources:
+- Use descriptive link text (not "click here")
+- Link to primary sources when possible
+- Include the full title of referenced documents
+
+## Frequently Asked Questions
+
+**Can I republish content from this blog?**
+Please review our [rules about fair use](/about.html).
+
+**How long should my article be?**
+There is no fixed length requirement. Focus on clarity and completeness.
+
+**How long does the review process take?**
+We aim to respond within 2 weeks of submission.
+
+---
+
+*For design patterns and examples of articles, see [Design patterns for articles](/design-patterns.html).*

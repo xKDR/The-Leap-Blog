@@ -4,12 +4,106 @@ page-layout: article
 title-block-banner: false
 ---
 
-# Article Design Patterns
+This page showcases different types of articles that work well for this blog. Each pattern represents a distinct way of contributing to public policy discourse.
 
-Consistency is key to "The Leap Blog" aesthetic.
+## Unveiling a Paper
 
-## Components
+Articles that introduce and summarize new research papers:
 
-- **Headings**: Use sentence case.
-- **Figures**: Full width or margin-aligned.
-- **Citations**: Standard academic format.
+- Clear summary of the research question
+- Key findings and methodology
+- Policy implications
+- Links to the full paper
+
+**Example topics:** Privacy frameworks, monetary policy measurement, household finance, bankruptcy reforms.
+
+## Analysis of Draft Law or Recently Enacted Law
+
+Critical examination of proposed or new legislation:
+
+- Overview of the law/proposal
+- Analysis of strengths and weaknesses
+- Comparison with international best practices
+- Recommendations for improvement
+
+**Example topics:** Net neutrality frameworks, consumer protection in bond markets, capital controls.
+
+## Post-mortem of a Policy Initiative
+
+Evaluating the outcomes of policy decisions:
+
+- What was the policy intended to achieve?
+- What actually happened?
+- What lessons can be learned?
+- Quantitative evidence where possible
+
+## Watching Markets Work
+
+Real-time analysis of market events:
+
+- Description of the event
+- Market data and reactions
+- Interpretation of what the data tells us
+- Broader implications
+
+## Unveiling a Government Committee Report
+
+Making technical government reports accessible:
+
+- Summary of key recommendations
+- Context and background
+- Critical analysis
+- Implementation considerations
+
+## Table of Contents
+
+Multi-part series that pose questions and answer them across articles:
+
+- Clear framing of the overall question
+- Logical progression across articles
+- Cross-references between parts
+
+## Policy Counterfactuals
+
+Alternative history analysis:
+
+- What if a different policy had been chosen?
+- Rigorous reasoning about alternatives
+- Lessons for future policy design
+
+## Drafting Hall of Shame
+
+Analysis of poorly drafted legislation:
+
+- Specific identification of drafting errors
+- Explanation of why they matter
+- Suggestions for correction
+
+## The State of the Art
+
+Comprehensive literature reviews:
+
+- Survey of current knowledge
+- Identification of gaps
+- Directions for future research
+
+## Novel Methods and Their Applications
+
+Introduction of new analytical techniques:
+
+- Clear explanation of the method
+- Working example with real data
+- Code and reproducibility
+
+## Original Quantitative Research
+
+Data-driven analysis:
+
+- Clear research question
+- Rigorous methodology
+- Transparent data and code
+- Policy implications
+
+---
+
+*For submission guidelines, see [Instructions for authors](/instructions.html).*
