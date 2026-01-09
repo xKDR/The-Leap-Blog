@@ -1,24 +1,7 @@
-<% // Aggregate posts by author var authorCounts={}; for (var i=0; i < items.length; i++) { var item=items[i]; if
-    (item.author) { // Handle potentially array of authors? Assuming single string for now or taking first. var
-    authors=Array.isArray(item.author) ? item.author : [item.author]; for (var j=0; j < authors.length; j++) { var
-    name=authors[j]; if (!authorCounts[name]) { authorCounts[name]={ count: 0, items: [] }; }
-    authorCounts[name].count++; authorCounts[name].items.push(item); } } } // Convert to array var sortedAuthors=[]; var
-    names=Object.keys(authorCounts); for (var k=0; k < names.length; k++) { var key=names[k]; sortedAuthors.push({ name:
-    key, count: authorCounts[key].count, items: authorCounts[key].items }); } // Sort sortedAuthors.sort(function(a, b)
-    { return b.count - a.count; }); %>
-
-    <div class="authors-list">
-        <% for (var i=0; i < sortedAuthors.length; i++) { %>
-            <% var author=sortedAuthors[i]; %>
-                <div class="author-card <%= i === 0 ? 'top-author' : '' %>">
-                    <h3 class="author-name">
-                        <a href="archive.html#author=<%= author.name %>">
-                            <%= author.name %>
-                        </a>
-                    </h3>
-                    <div class="author-meta">
-                        <%= author.count %> articles
-                    </div>
-                </div>
-                <% } %>
-    </div>
+<div class="authors-list">
+    <% for (var i=0; i < items.length; i++) { %>
+        <div>
+            <%= items[i].title %>
+        </div>
+        <% } %>
+</div>
