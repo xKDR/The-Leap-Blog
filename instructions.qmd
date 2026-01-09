@@ -1,0 +1,15 @@
+---
+title: "Instructions for Authors"
+page-layout: article
+title-block-banner: false
+---
+
+# Submitting to The Leap Blog
+
+We welcome contributions from thought leaders, researchers, and practitioners.
+
+## Guidelines
+
+- **Focus**: High-quality, evidence-based analysis.
+- **Length**: 800 - 1500 words.
+- **Style**: Clear, accessible, professional.

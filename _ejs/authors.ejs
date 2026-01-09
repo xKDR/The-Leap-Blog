@@ -1,7 +1,23 @@
-<div class="authors-list">
-    <% for (var i=0; i < items.length; i++) { %>
-        <div>
-            <%= items[i].title %>
-        </div>
-        <% } %>
-</div>
+<% /* Robust Author Aggregation */ var uniqueAuthors=[]; var authorCounts={}; /* Pass 1: Collect counts */ for (var i=0;
+    i < items.length; i++) { var item=items[i]; if (item.author) { var authList=Array.isArray(item.author) ? item.author
+    : [item.author]; for (var j=0; j < authList.length; j++) { var name=authList[j]; if (!authorCounts[name]) {
+    authorCounts[name]=0; uniqueAuthors.push(name); } authorCounts[name]++; } } } /* Pass 2: Create sorted array objects
+    */ var sortedList=[]; for (var k=0; k < uniqueAuthors.length; k++) { var authName=uniqueAuthors[k];
+    sortedList.push({ name: authName, count: authorCounts[authName] }); } /* Pass 3: Sort descending by count */
+    sortedList.sort(function(a, b) { return b.count - a.count; }); %>
+
+    <div class="authors-list">
+        <% for (var x=0; x < sortedList.length; x++) { %>
+            <% var authorObj=sortedList[x]; %>
+                <div class="author-card <%= x === 0 ? 'top-author' : '' %>">
+                    <h3 class="author-name">
+                        <a href="archive.html#author=<%= encodeURIComponent(authorObj.name) %>">
+                            <%= authorObj.name %>
+                        </a>
+                    </h3>
+                    <div class="author-meta">
+                        <%= authorObj.count %> articles
+                    </div>
+                </div>
+                <% } %>
+    </div>

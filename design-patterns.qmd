@@ -1,0 +1,15 @@
+---
+title: "Design Patterns for Articles"
+page-layout: article
+title-block-banner: false
+---
+
+# Article Design Patterns
+
+Consistency is key to "The Leap Blog" aesthetic.
+
+## Components
+
+- **Headings**: Use sentence case.
+- **Figures**: Full width or margin-aligned.
+- **Citations**: Standard academic format.
