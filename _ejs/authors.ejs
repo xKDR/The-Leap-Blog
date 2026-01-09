@@ -5,7 +5,6 @@
     */ var sortedList=[]; for (var k=0; k < uniqueAuthors.length; k++) { var authName=uniqueAuthors[k];
     sortedList.push({ name: authName, count: authorCounts[authName] }); } /* Pass 3: Sort descending by count */
     sortedList.sort(function(a, b) { return b.count - a.count; }); %>
-
     <div class="authors-list">
         <% for (var x=0; x < sortedList.length; x++) { %>
             <% var authorObj=sortedList[x]; %>
