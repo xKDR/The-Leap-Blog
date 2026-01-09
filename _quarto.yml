@@ -18,14 +18,3 @@ format:
     code-fold: false
     code-tools: false
     link-external-newwindow: true
-    comments:
-      giscus:
-        repo: xKDR/The-Leap-Blog
-        repo-id: "YOUR_REPO_ID"
-        category: "Announcements"
-        category-id: "YOUR_CATEGORY_ID"
-        mapping: pathname
-        reactions-enabled: true
-        loading: lazy
-        input-position: bottom
-        theme: light
